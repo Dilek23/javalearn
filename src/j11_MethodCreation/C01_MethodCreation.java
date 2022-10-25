@@ -58,10 +58,9 @@ public class C01_MethodCreation {
 
 
     }
- public static void topla2(int a,int b){
-     System.out.println("Bu metod parametreli");
+ public static void topla2(int a,int b){// parametresiz return type olmayan void metod
 
-        System.out.println(a+b);
+     System.out.println(a+b);
 }
 
 }

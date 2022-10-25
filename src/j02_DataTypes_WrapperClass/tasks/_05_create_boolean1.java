@@ -9,5 +9,6 @@ public class _05_create_boolean1 {
 
         //Kodu aşağıya yazınız.
 
+
     }
 }

@@ -12,19 +12,21 @@ public class C02_MethodCreation {
         double not2 = sc.nextDouble();
         System.out.print("3.notunuzu giriniz");
         double not3 = sc.nextDouble();
-        double ortalamanız = ortalamaHesapla(not1, not2, not3);
-        System.out.println("ortalamanız:"+ortalamaHesapla(23, 44, 32));
-        System.out.println("ortalamanız = " + ortalamanız);
+      double Ortalamanız=ortalamaHesapla(not1,not2,not3);
+        System.out.println(" Not Ortalamanız = " + Ortalamanız);
+
     }//main dışı
-     public static double ortalamaHesapla(double a,double b,double c){
 
+    private static double ortalamaHesapla(double a, double b, double c) {
 
-         return (a+b+c)/3;
-
+   return (a+b+c)/3;
     }
 
 
-
-
-
 }
+
+
+
+
+
+

@@ -29,6 +29,7 @@ public class Task08 {
 
 
         if (a % 4 == 0) {
+            boolean b=true;
             System.out.println("True");
         } else System.out.println("False");
     }

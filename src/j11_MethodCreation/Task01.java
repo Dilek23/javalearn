@@ -10,8 +10,8 @@ public class Task01 {
         int sayı1= sc.nextInt();
         System.out.println("ikinci sayı giriniz");
         int sayı2= sc.nextInt();
-    esitKontrol(sayı1,sayı2);
-esitKontrol2(3,5);
+        System.out.println(esitKontrol(sayı1, sayı2));
+        esitKontrol2(3,5);
 esitKontrol2(33,33);
 esitKontrol2(61,61);
 esitKontrol2(sayı1,sayı2);
