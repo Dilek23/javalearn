@@ -8,7 +8,8 @@ public class _15_create_short2 {
           Short'u yazdırınız.  */
 
         //Kodu aşağıya yazınız.
-
+short b=23;
+        System.out.println("b = " + b);
 
 
     }

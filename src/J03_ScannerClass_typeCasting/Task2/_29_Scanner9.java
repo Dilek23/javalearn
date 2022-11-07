@@ -8,7 +8,10 @@ public class _29_Scanner9 {
 
     /*   kullanıcının boyunu
           Float print eden code create ediniz   */
-
+Scanner sc=new Scanner(System.in);
+        System.out.print("boyunuzu giriiniz: ");
+        float f=sc.nextFloat();
+        System.out.println(f);
 
 
 

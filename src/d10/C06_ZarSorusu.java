@@ -13,15 +13,11 @@ Iki tane atilan zarin toplamlarinin 9 olmasi durumanda "Kazandiniz" yazisini yaz
         int max=6;
 
         int zar1= (int) (Math.random() * ((max - min) + 1)) + min;
-        int zar2= (int) (Math.random() * ((max - min)))+min;
+        int zar2= (int)(Math.random()*6);
         System.out.println("zar1 = " + zar1);
         System.out.println("zar2 = " + zar2);
         int toplam=zar1+zar2;
-        if (toplam==9){
-            System.out.println("kazandınız");
-        }else System.out.println("tekrar deneyiniz");
-
-
+        System.out.println(toplam==9?"Tebrikler Kazandiniz..:)":"Maalesef Kaybettiniz:(");
 
 
 

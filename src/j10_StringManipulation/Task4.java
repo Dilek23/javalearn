@@ -14,7 +14,8 @@ public class Task4 {
  Print ==> mehahmetmet
  */
         Scanner sc=new Scanner(System.in);
-        System.out.println("1.kelimeyi giriniz:");
+        System.out.print("1.kelimeyi giriniz: ");
+        /*
 String kelime1= sc.nextLine();
 
         System.out.println("2.kelimeyi giriniz:");
@@ -24,7 +25,14 @@ String kelime1= sc.nextLine();
         }else{
             System.out.println("kelime2 kelime1 eklenemez");
         }
-
+         */
+       String str1= sc.nextLine();
+        System.out.print("İkinci kelimeyi giriniz: ");
+        String str2= sc.nextLine();
+        if(str1.length()%2==0){
+            System.out.println(str1.substring(0,str1.length()/2)+str2+str1.substring(str1.length()/2));
+        }else
+            System.out.println("kelime bir kelime ikiye eklenemz...:(");
 
     }
 }

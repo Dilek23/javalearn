@@ -1,5 +1,7 @@
 package j13_break_contuniue;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class C01_Break {
@@ -17,7 +19,7 @@ kalmaksızın sona erdirmek için break komutu kullanılır. break komutu loop'a
  */
 
 // Task ->girilen bir mail hesabının @ sembolune kadar olan karakterlerni print eden code create ediniz.
-        Scanner sc=new Scanner(System.in);
+       /* Scanner sc=new Scanner(System.in);
         System.out.println("bir mail hesabı giriniz");
         String mail=sc.nextLine();
         for(int i=0;i<mail.length();i++){
@@ -27,11 +29,25 @@ kalmaksızın sona erdirmek için break komutu kullanılır. break komutu loop'a
             }
             System.out.print(c);
         }
+         Bir tamsayı listesinde en yakın 2 tamsayıyı bulunuz.
+        Örnek: (12, 31, 15, 32, 54) ==> Çıktı 31 ve 32'tür
 
+          Listedeki 8 ve 12 dışındaki her öğenin değerini 2'şer artırınız.
+          Örnek: (15, 31, 8, 13, 12) ==> Çıktı (17, 33, 8, 15, 12)
+        */
+        ArrayList<Integer>numList=new ArrayList<>(List.of(15, 31, 8, 13, 12));
+        ArrayList<Integer>yeniList=new ArrayList<>();
 
+        for (int i = 0; i < numList.size() ; i++) {
+            if(numList.get(i)!=8&&numList.get(i)!=12){
+              numList.set(i,(numList.get(i)+2));
+              yeniList.add(numList.get(i));
+            }else
+               yeniList.add(numList.get(i));
 
+        }
 
-
+        System.out.println(yeniList);
 
 
 

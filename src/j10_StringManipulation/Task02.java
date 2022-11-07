@@ -13,12 +13,22 @@ public class Task02 {
  */
         Scanner sc=new Scanner(System.in);
         System.out.println("paasword giriniz:");
-        String password= sc.nextLine();
+      /*  String password= sc.nextLine();
 
         if ((password.charAt(0)>='A'&&password.charAt(0)<='Z') &&(password.charAt(password.length()-1)>='0'&&
                 password.charAt(password.length()-1)<='9')&&(password.length()>=6)) {
             System.out.println("password geçerli");
         }else System.out.println("password geçersiz");
+
+
+       */
+
+       String password=sc.nextLine();
+       if((password.charAt(0)>='A'&&password.charAt(0)<='Z')&&(password.charAt(password.length()-1)>='0'&&
+               (password.charAt(password.length()-1)<='9')&& password.length()>=6)){
+           System.out.println("Girdiginiz password gecerli");
+        }else System.out.println("Girdiginiz password gecersiz...:(");
+
 
 
     }

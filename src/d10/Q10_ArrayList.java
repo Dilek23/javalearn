@@ -27,9 +27,10 @@ Example : [H, G, E]
 
         Scanner sc=new Scanner(System.in);
         System.out.println("bir harf giriniz");
-        String letter=sc.next().trim().substring(0,1).toLowerCase();
+        String letter=sc.next().trim().substring(0,1).toUpperCase();
         if(list.contains(letter)){
             list.set(list.indexOf(letter),"Got it" );
+            System.out.println(list);
         }else
             list.add(letter);
         System.out.println(list);

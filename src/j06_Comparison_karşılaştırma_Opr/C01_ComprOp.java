@@ -21,7 +21,7 @@ public class C01_ComprOp {
       int krmys=41;
         System.out.println("krm bey eşit mi slm beye-> " + (krmys==slmys));
         System.out.println("krm b esit değil  mi slm b -> "+(krmys!=slmys));//true
-        System.out.println("krm b kucuk mu  slm b -> "+(krmys<slmys));//true
+        System.out.println("krm b kucuk mu  slm b -> "+(krmys<slmys));//false
         System.out.println("krm b buyuk mu   slm b -> "+(krmys>slmys));//true
         String name="Kerem bey";
         String name1="kerem bey";

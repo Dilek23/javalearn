@@ -5,7 +5,7 @@ public class Task03 {
 
       // Alamanya Str sindeki ikinci a karakterinin indeksi?
       String str="Alamanya";
-        System.out.println(str.indexOf('a', str.indexOf('a') + 1));
+        System.out.println(str.indexOf('a', str.indexOf('a') + 2));
 
 
 

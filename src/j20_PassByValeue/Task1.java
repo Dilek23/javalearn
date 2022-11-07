@@ -15,5 +15,9 @@ public class Task1 {
 		   		 Parantez içindeki karakterler artan sıradadır (C-100, M-1000) ---> [C M]=900
 		*/
 
+
+
+
+
     }
 }

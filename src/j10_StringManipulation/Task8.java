@@ -13,7 +13,7 @@ public class Task8 {
         char u=harfDepo.charAt(harfDepo.indexOf("L"));
         char k=harfDepo.charAt(harfDepo.indexOf("I"));
         System.out.println(h+a+l+u+k);// ascii toplama
-        System.out.println(""+h+a+l+u+k);// HALUK
+        System.out.println(""+h+a+l+u+k);// Nazlı
       //  System.out.println(pickName.charAt(pickName.indexOf("C"))+pickName.charAt(pickName.indexOf("A"))+pickName.charAt(pickName.indexOf("N")));
     }
 

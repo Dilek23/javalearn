@@ -14,6 +14,8 @@ public class Task06 {
         ikinci kenar: 5
         hipotenus: 13      */
 
+int dkknr1=12;
+int dkknr2=5;
 
 
 

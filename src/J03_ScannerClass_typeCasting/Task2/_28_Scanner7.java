@@ -11,7 +11,7 @@ public class _28_Scanner7 {
               Varsa True , yoksa False olarak  konsoldan cevap veriniz.
 
                 */
-        Scanner sc=new Scanner(System.in);
+       /* Scanner sc=new Scanner(System.in);
         System.out.println("Bir banka hesabınız var mı? Evet ise \"E\" Hayır ise \"H\"tuşlayın:" );
         char cevap=sc.next().charAt(0);
         boolean banka;
@@ -22,7 +22,12 @@ public class _28_Scanner7 {
             System.out.println("banka =  +E'=='true,+H '=='false");
 
 
-
+        */
+Scanner sc=new Scanner(System.in);
+        System.out.print("Bir banka hesabınız var mı?Varsa ->'E'Yoksa 'H 'yi tuşlayın:");
+char c=sc.next().toUpperCase().charAt(0);
+boolean hesap;
+        System.out.println(c=='E'?"hesabınız mevcut= "+true:"maalesef hesabınız mevcut degil="+false);
 
     }
 }

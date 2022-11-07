@@ -13,7 +13,7 @@ public class Task04 {
          * INPUT : list1={"Ali","Veli","Ayse","Fatma","Omer"}
          * OUTPUT : [Veli,Omer]
          */
-
+/*
         ArrayList<String> listIsim = new ArrayList<>(Arrays.asList("Ali", "Veli", "Ayse", "Fatma", "Omer"));
         ArrayList<String> aOlmayanlistIsim = new ArrayList<>();//boş list
         for (int i = 0; i < listIsim.size(); i++) {
@@ -28,6 +28,18 @@ public class Task04 {
 
         listIsim.addAll(aOlmayanlistIsim);
         System.out.println("listIsim = " + listIsim);//listIsim = [Veli, Omer]
+
+
+ */
+ArrayList<String>listIsim = new ArrayList<String>(Arrays.asList("Ali", "Veli", "Ayse", "Fatma", "Omer"));
+ArrayList<String>aOlmayanlist=new ArrayList<>();
+        for (int i = 0; i <listIsim.size() ; i++) {
+            if(!listIsim.get(i).toLowerCase().contains("a")){
+                aOlmayanlist.add(listIsim.get(i));
+            }
+
+        }
+        System.out.println("aOlmayanlist = " + aOlmayanlist);
 
 
     }

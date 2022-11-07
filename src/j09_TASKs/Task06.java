@@ -20,6 +20,8 @@ public class Task06 {
 			case "P":
 				System.out.println("Person\t"+"kelimesinin kısaltmasıdır.");
 				break;
+			default:
+				System.out.println("Yanlış bir harf girdiniz");
 		}
 
 

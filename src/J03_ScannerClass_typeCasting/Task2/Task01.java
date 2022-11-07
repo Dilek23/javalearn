@@ -17,7 +17,7 @@ public class Task01{
 		      OUTPUT: "Your grade is : 81,6"
 
 		 */
-        Scanner sc=new Scanner(System.in);
+       /* Scanner sc=new Scanner(System.in);
 
         System.out.println("Please,enter mid-term grade:\nPlease,enter final grade:\nPlease,enter project grade:");
         int midtermgrade=sc.nextInt();
@@ -25,5 +25,15 @@ public class Task01{
         int projectgrade=sc.nextInt();
     double generalG=midtermgrade*0.3+finalgrade*0.5+projectgrade*0.20;
         System.out.println("generalG = " + generalG);
+       */
+
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Lütfen arasınav notunuzu giriniz= \nFinal notunuzu giriiniz= \nProje notunuzu giriniz = ");
+        double arasınav=sc.nextDouble();
+        double finalnot= sc.nextDouble();
+        double proje=sc.nextDouble();
+        double generalGrade=((arasınav*0.3)+(finalnot*0.5)+(proje*0.2));
+        System.out.println("generalG = " +generalGrade);
+
     }
 }

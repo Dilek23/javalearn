@@ -16,7 +16,7 @@ Bazı karmaşık çözülmesi güç problemlerde döngülere göre daha kısa ve
         Scanner sc = new Scanner(System.in);
         System.out.print("bir sayı giriniz:");
         int sayi = sc.nextInt();
-        System.out.println(faktöriyel(sayi));
+        System.out.println(+sayi+" sayısının faktöriyel degeri= "+faktöriyel(sayi));
 
     }//main dşı
 

@@ -16,10 +16,10 @@ public class C01_Constructor {
 
        public static void main(String[] args) {
         // class name   //objename  new kywrd       default cons.
-        C01_Constructor obj1   =    new    C01_Constructor();
-           C01_Constructor obj2  =    new    C01_Constructor();
-           C01_Constructor obj3  =    new    C01_Constructor();
-           C01_Constructor obj4  =    new    C01_Constructor();
+        C01_Constructor    obj1   =    new    C01_Constructor();
+        C01_Constructor    obj2   =    new     C01_Constructor();
+        C01_Constructor    obj3   =    new     C01_Constructor();
+        C01_Constructor    obj4   =    new     C01_Constructor();
         obj1.str="javacan";// str ins. variable bj1 ile call edilerek yeni dgr atandı.
            obj2.str="javatar";
            System.out.println(obj3.selam);// guzel insan
@@ -27,9 +27,9 @@ public class C01_Constructor {
            System.out.println(obj2.str);
            System.out.println(obj4.str);
        obj3.aga();
-
+       obj2.aga();
        }
-       public static void aga(){
+       public  void aga(){
            System.out.println("selamkeee:)");
        }
 

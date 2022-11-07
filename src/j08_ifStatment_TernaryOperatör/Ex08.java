@@ -16,6 +16,6 @@ public class Ex08 {
         Scanner sc=new Scanner(System.in);
         System.out.println("bir sayi giriniz");
         int sayi= sc.nextInt();
-
+        System.out.println(sayi>0?(sayi<=10?"Normalsin..":"buyuksun..."):(sayi>=-10?"Negatifsin":"Coook Negaitfsin..."));
     }
 }

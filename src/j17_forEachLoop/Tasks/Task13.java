@@ -9,8 +9,20 @@ public class Task13 {
      * ardışık array elemanların toplamını hesaplayan bir method create ediniz.
      */
     public static void main(String[] args) {
+  int arr[]={3, 5, 1, 2, 7, 9, 2, 3, 5, 7};
+  ArrayList<Integer>numList = new ArrayList<Integer>();
+  int sum,j,count=0;
+        for (int i = 0; i < arr.length ;) {
+            sum=0;
+            for (j=i;j<=i+count&&j<=arr.length;j++){
+                sum+=arr[j];
 
-
+            }
+            numList.add(sum);
+            count++;
+            i=j;
+        }
+        System.out.println(numList);
     }
 }
 

@@ -17,7 +17,7 @@ public class C_swapOdev {
 
 
 
-        System.out.println("*** a çözümü ***");
+       /* System.out.println("*** a çözümü ***");
 
         int sayi1=20;
         int sayi2=34;
@@ -40,5 +40,17 @@ public class C_swapOdev {
         num2=num1-num2;
         num1=num1-num2;
         System.out.println("Değişimden sonra \nsayi1 = " + num1 + "\nsayi2 = " + num2);
+
+        */
+
+        int num1=20;
+        int num2=34;
+        System.out.println("Degişimden önce= "+num1+"\nDegişimden önce= "+num2);
+        num1=num1+num2;
+        num2=num1-num2;
+        num1=num1-num2;
+        System.out.println("degişimden sonra= "+num1+"\nDegişimden sonra= "+num2);
+
+
     }
 }

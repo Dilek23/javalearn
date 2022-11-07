@@ -6,7 +6,7 @@ public class C2_MathClassMatrix {
     public static void main(String[] args) {
         /*
 Ask user to enter a number and print on console number by number matrix.
-
+Kullanıcıdan bir sayı girmesini ve sayı matrisine göre konsol numarasına yazdırmasını isteyin.
 Example:
 Input: 10
 
@@ -22,7 +22,7 @@ Output:
 0 0 1 0 0 0 0 1 1 0
 1 1 1 0 0 1 1 1 1 0
 
-*/
+*//*
         Scanner sc=new Scanner(System.in);
         System.out.println("boyutu giriniz:");
         int sayi= sc.nextInt();
@@ -33,6 +33,17 @@ Output:
             }
             System.out.println();
         }
+*/
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Boyutu giriniz:");
+        int boyut=sc.nextInt();
+        for (int i = 0; i <boyut ; i++) {
+            for (int j = 0; j <boyut ; j++) {
+                System.out.print((int) (Math.random()*2)+" ");
+            }
+            System.out.println();
+        }
+
 
     }
 }

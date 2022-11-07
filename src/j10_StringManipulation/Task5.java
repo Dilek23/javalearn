@@ -7,6 +7,7 @@ public class Task5 {
 /* Task->
 Girilen ad soyad bilgilerinin ilk harflerini buyuk harf print eden code create ediniz..
  */
+        /*
         Scanner sc=new Scanner(System.in);
         System.out.println("Adınızı  giriniz :");
         String ad= sc.nextLine();
@@ -17,6 +18,16 @@ Girilen ad soyad bilgilerinin ilk harflerini buyuk harf print eden code create e
        String yenİsOyad=soyad.substring(0,1).toUpperCase()+soyad.substring(1);
         System.out.println("Soyadınız = " + yenİsOyad);
 
+
+         */
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Adınızı  giriniz :");
+        String ad= sc.nextLine();
+        System.out.println("Soyadınızı girin");
+        String soyad= sc.nextLine();
+       String yeniad=ad.substring(0,1).toUpperCase()+ad.substring(1);
+       String yeniSoyad=soyad.substring(0,1).toUpperCase()+soyad.substring(1);
+        System.out.print("Adınız Soyadınız= "+yeniad+"  "+yeniSoyad);
 
 
     }

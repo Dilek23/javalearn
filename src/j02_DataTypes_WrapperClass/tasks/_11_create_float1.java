@@ -8,7 +8,8 @@ public class _11_create_float1 {
           Float'ı yazdırınız.   */
 
         //Kodu aşağıya yazınız.
-
+float a= 121.005f;
+        System.out.println("a = " + a);
 
 
     }
