@@ -3,7 +3,10 @@ package j21_ImmutableClass;
 import java.util.ArrayList;
 
 public class C03_ImmutableClass {
-    public static void main(String[] args) {
+        public C03_ImmutableClass() {
+        }
+
+        public static void main(String[] args) {
         /*
 /*
   Boolean, Short, Integer, Long, Float, Double, Char ve String gibi tüm kapsayıcı sınıflar (Wrapper Class)
