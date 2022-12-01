@@ -13,7 +13,7 @@ Java'da Çok Boyutlu Diziler varsayılan bir veri tipi olarak bulunmazlar ve mat
 Dizide tutulacak veri tipleri aynı olmak zorundadır farklı veri tiplerini aynı matriste tutamayız.
 
        * 1- Ic Icice olusturulan  array'lerde   disardaki ana array'e outer->kat array
-       *  icerdeki  array'lere  inne(daire) array denir
+       *  icerdeki  array'lere  inner(daire) array denir
        * 2- TRICK->  icerdeki array'lerin boyutlari birbirinden farkli ise
        *  Array'i ancak tum elemenlari atanarak declare edilmeli
        * 3- Multi dimensional array'de bir elemanin indexi icin

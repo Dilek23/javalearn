@@ -3,7 +3,7 @@ package j10_StringManipulation;
 public class C01_Concatanation {
     public static void main(String[] args) {
         /*
-        concat metodu içine aldığ string  variable çalıştığı string sonuna ekler...
+        concat metodu içine aldığı string  variable çalıştığı string sonuna ekler...
         java'da + işlemi yapılırken eger en z bir string variable varsa java toplama degil concad yapar.
         */
       String name="Nur";

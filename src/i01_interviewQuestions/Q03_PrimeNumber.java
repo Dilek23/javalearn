@@ -24,9 +24,10 @@ public class Q03_PrimeNumber {
             }
             if (flag==true) System.out.println("Asaldır...");
             else System.out.println("Sayi asal degildir...");
-        }else System.out.println("asal degildir");
+        }
 
     }
+
 
 
 }

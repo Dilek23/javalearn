@@ -19,7 +19,7 @@ public class C02_staticVariable {
 
         firmaID=1001;
             System.out.println("firmaID = " +firmaID);
-            C02_staticVariable.firmaIT=true;// classname ile static variable call bu bad practice
+         //   C02_staticVariable.firmaIT=true;// classname ile static variable call bu bad practice
            staticMethod();//static method static maine call edildi. galaksy seyahati
 
     }//mainsonu

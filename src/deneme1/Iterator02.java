@@ -1,56 +1,29 @@
 package deneme1;
 
 import java.util.ArrayList;
-import java.util.ListIterator;
 
 public class Iterator02 {
     public static void main(String[] args) {
 
 
-        ArrayList<Integer> list = new ArrayList<>();
-        list.add(12);
+        ArrayList<String> list = new ArrayList<>();
 
-        list.add(13);
+        list.add("X");
 
-        list.add(14);
+        list.add("Y");
 
-        list.add(15);
+        list.add("Z");
 
-        list.add(16);
 
-        System.out.println(list);
 
-        ListIterator<Integer> it = list.listIterator();
-        int idx = 0;
+        for(String w : list) {
 
-        while(it.hasNext()) {
-
-            Integer el = it.next();
-
-            if(idx>2) {
-
-                break;
-
-            }
-
-            it.set(el = el*2);
-
-            System.out.print(el + " ");
-
-            idx++;
+            w = w + "!";
 
         }
 
+        System.out.println(list);
+
     }
+
 }
-
-
-
-
-
-
-
-
-
-
-

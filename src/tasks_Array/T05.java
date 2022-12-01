@@ -24,7 +24,7 @@ public class T05 {
 			
 		}while(num!=0);
 		
-		System.out.println(sum);
+		System.out.println("Girdiginiz sayıların toplamı= "+sum);
 		
         scan.close();
 	}

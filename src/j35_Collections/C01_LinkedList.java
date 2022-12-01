@@ -17,7 +17,7 @@ public class C01_LinkedList {
         7- LinkedList class iki tane parent interface'den (ListQueue)implement etmiştir.S
          */
 
-        LinkedList<String>ll1=new LinkedList<>(Arrays.asList("Tugba","Gülsüm","Merve"));
+        LinkedList<String>ll1=new LinkedList<>(Arrays.asList("Tugba","Gülsüm","Merve","Tugba"));
         // Linkedlist
         System.out.println("ll1 = " + ll1);
         ll1.add("Ugur");
@@ -35,6 +35,7 @@ public class C01_LinkedList {
         System.out.println("ll1 = " + ll1);
         ll1.addAll(3,ll2);
         System.out.println("ll1 = " + ll1);
+
 
     }
 }

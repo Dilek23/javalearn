@@ -16,11 +16,11 @@ public class Task_ArdışıkArrayelmn {
     }
 
     private static void arrTopla(int[] arr, ArrayList<Integer> list) {
-       int toplam=0; int sayac=0;
+       int toplam=0; int sayac=1;
       int  j=0;
        for(int i=0;i<arr.length;i++) {
            toplam=0;
-           for (j=i;j< arr.length&&j<=i+sayac;j++) {
+           for (j=i;j< arr.length&&j<i+sayac;j++) {
                toplam+=arr[j];
            }
            list.add(toplam);

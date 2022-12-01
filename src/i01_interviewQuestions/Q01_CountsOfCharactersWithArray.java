@@ -11,6 +11,7 @@ public class Q01_CountsOfCharactersWithArray {
             abaa   ==> a=3  b=1
     */
    public static void main(String[] args) {
+       /*
        Scanner sc=new Scanner(System.in);
        System.out.print("String bir ifade giriniz:");
        String str=sc.nextLine();
@@ -20,8 +21,8 @@ public class Q01_CountsOfCharactersWithArray {
        System.out.println(Arrays.toString(arr));
        int counter=0;
        // karakterleri karşılaştırmak için for
-       for (int i = 0; i <arr.length;i++) {
-           if (arr[i - 1].equals(arr[i])) { //birden fazla sayidaki karakter icin
+       for (int i =1; i <arr.length;i++) {
+           if (arr[i-1].equals(arr[i])) { //birden fazla sayidaki karakter icin
                counter++;
            } else {
                System.out.println(arr[i - 1] + "sayisi" + (counter + 1));
@@ -34,6 +35,34 @@ public class Q01_CountsOfCharactersWithArray {
 
 
        }
+
+
+        */
+
+       Scanner sc=new Scanner(System.in);
+       System.out.print("String bir ifade giriniz:");
+       String str=sc.nextLine();
+       String arr[]=str.split("");
+       Arrays.sort(arr);
+       System.out.println(Arrays.toString(arr));
+       int counter=0;
+
+       for (int i =1; i < arr.length ; i++) {
+           if(arr[i-1].equals(arr[i])){
+               counter++;
+           }else
+               System.out.println(arr[i-1]+ "sayisi" + (counter + 1)+" tane var...") ;
+           counter=0;
+
+           if (i==arr.length-1){
+               System.out.println(arr[i] + " sayisi" + counter);
+
+
+           }
+       }
+
+
+
 
          }
        }

@@ -45,6 +45,7 @@ public class Q02_MergeCertainCharacters {
         return yeni;
     }
  */
+
         Scanner sc= new Scanner(System.in);
         System.out.print("Bir kelime giriniz :");
         String s=sc.nextLine();

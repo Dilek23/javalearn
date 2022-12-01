@@ -23,5 +23,14 @@ public class C01_TemelBilgilerPrintf {
 // %x x kapasite %y y karakter saıysı
         System.out.printf("sayi: %-10d,str:%-8.8s,db:%07.4f",sayi,str,db);
         // - eksi sola yaslar
+
+        //                   "Urunleriniz "+
+        //
+        //                ", urunIsmi='" + urunIsmi + '\'' +
+        //                ", uretici='" + uretici + '\'' +
+        //                ", miktar=" + miktar +
+        //                ", birim='" + birim + '\'' +
+        //                ", raf='" + raf + '\'' +"\n"
     }
+
 }

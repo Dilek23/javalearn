@@ -32,8 +32,11 @@ String s3=new String("songul hanım");
         System.out.println(s3.equals(s4));
 
 
-
-
+            String s5="ongul hanım";
+            String s6="ongul hanım";
+            System.out.println("****");
+            System.out.println(s5==s6);
+            System.out.println(s5.equals(s6));
 
 
 

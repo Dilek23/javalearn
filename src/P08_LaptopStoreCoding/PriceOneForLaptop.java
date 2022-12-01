@@ -7,8 +7,6 @@ public class PriceOneForLaptop {
     Data pcPrice=new Data();
     ArrayList<String>pc=pcPrice.allData(laptopID);
 
-
-
         int totalAmount=Calculation.getsize(pc)+Calculation.getcPu(pc)+Calculation.getRam(pc)+Calculation.getColor(pc);
         return totalAmount;
     }
